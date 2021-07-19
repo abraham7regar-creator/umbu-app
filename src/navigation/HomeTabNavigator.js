@@ -8,11 +8,11 @@ import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 import Feather from 'react-native-vector-icons/Feather';
 import EvilIcons from 'react-native-vector-icons/EvilIcons';
-import PostScreen from "../screens/PostScreen";
+import PostScreen from '../screens/PostScreen';
 
 const Tab = createBottomTabNavigator();
 
-const HomeTabNavigator = (props) => {
+const HomeTabNavigator = props => {
   return (
     <Tab.Navigator
       tabBarOptions={{
@@ -37,11 +37,11 @@ const HomeTabNavigator = (props) => {
         }}
       />
       <Tab.Screen
-        name={'Airbnb'}
+        name={'Umbu'}
         component={HomeScreen}
         options={{
           tabBarIcon: ({color}) => (
-            <FontAwesome5 name="airbnb" size={25} color={color} />
+            <Feather name="home" size={25} color={color} />
           ),
         }}
       />
@@ -55,7 +55,7 @@ const HomeTabNavigator = (props) => {
         }}
       />
       <Tab.Screen
-        name={'profile'}
+        name={'Profile'}
         component={HomeScreen}
         options={{
           tabBarIcon: ({color}) => (
