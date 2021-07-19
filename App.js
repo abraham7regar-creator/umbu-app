@@ -9,10 +9,10 @@
 import 'react-native-gesture-handler';
 import React from 'react';
 import {StatusBar} from 'react-native';
+import {withAuthenticator} from 'aws-amplify-react-native';
 
 import Router from './src/navigation/Router';
-
-import HomeScreen from './src/screens/Home';
+// import HomeScreen from './src/screens/Home';
 
 const App: () => React$Node = () => {
   return (
@@ -23,4 +23,4 @@ const App: () => React$Node = () => {
   );
 };
 
-export default App;
+export default withAuthenticator(App);

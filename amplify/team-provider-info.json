@@ -10,6 +10,11 @@
       "StackName": "amplify-appumbu-dev-122728",
       "StackId": "arn:aws:cloudformation:ap-southeast-1:929989271239:stack/amplify-appumbu-dev-122728/dbbe6a70-e788-11eb-a357-0638f3f69c86",
       "AmplifyAppId": "d3h4qge2waa3t6"
+    },
+    "categories": {
+      "auth": {
+        "appumbu3c0165fa": {}
+      }
     }
   }
 }
