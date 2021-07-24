@@ -17,7 +17,7 @@ const HomeTabNavigator = props => {
   return (
     <Tab.Navigator
       tabBarOptions={{
-        activeTintColor: '#f15454',
+        activeTintColor: '#98E2C6',
       }}>
       <Tab.Screen
         name={'Explore'}

@@ -1,6 +1,6 @@
 {
   "auth": {
-    "appumbu3c0165fa": {
+    "appumbud382b59f": {
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],

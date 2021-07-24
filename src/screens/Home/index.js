@@ -12,12 +12,12 @@ const HomeScreen = props => {
       <Pressable
         style={styles.searchButton}
         onPress={() => navigation.navigate('Destination Search')}>
-        <FontAwesome name="search" size={25} color={'#f15454'} />
+        <FontAwesome name="search" size={25} color={'#223843'} />
         <Text style={styles.searchButtonText}> Where are you going ?</Text>
       </Pressable>
 
       <ImageBackground
-        source={require('../../../assets/images/beach-vacation.jpg')}
+        source={require('../../../assets/images/wallpaper.jpg')}
         style={styles.image}>
         <Text style={styles.title}>Ayo Liburan</Text>
 

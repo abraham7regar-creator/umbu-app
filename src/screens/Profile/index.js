@@ -13,6 +13,7 @@ function ProfileScreen() {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
+        backgroundColor: '#223843',
       }}>
       <Pressable
         onPress={logout}

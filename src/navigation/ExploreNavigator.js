@@ -1,15 +1,15 @@
 import React from 'react';
 import {createStackNavigator} from '@react-navigation/stack';
 import HomeScreen from '../screens/Home';
-import SearcResultsScreen from '../screens/SearchResults';
-import SearchResultsTabNavigator from "./SearchResultsTabNavigator";
+// import SearcResultsScreen from '../screens/SearchResults';
+import SearchResultsTabNavigator from './SearchResultsTabNavigator';
+// import ProfileScreen from '../screens/Profile';
 
 const Stack = createStackNavigator();
 
-const Router = (props) => {
+const Router = props => {
   return (
     <Stack.Navigator>
-
       <Stack.Screen
         name={'Welcome'}
         component={HomeScreen}
